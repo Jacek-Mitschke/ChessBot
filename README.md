@@ -29,7 +29,7 @@ Training was performed using PyTorch and custom chess environment wrappers built
 
 ---
 
-## 🧪 Reproducibility
+##  Reproducibility
 
 To run training or experiments:
 
@@ -41,10 +41,12 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Train the agent
+# 3. (Optional) Train your own model from scratch
 python train_dqn_updated.py
 
-# 4. Run evaluations
+# 4. Or use the provided pretrained models in saved_models/
+# and run evaluation experiments directly:
 python run_experiments.py
 python run_targeted.py
+
 
